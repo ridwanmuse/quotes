@@ -1,0 +1,36 @@
+body {
+  background: #F9D2DD;
+}
+
+.app {
+  width: 1280px;
+  margin: auto;
+}
+
+.quotes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.inner-quotes-container {
+  display:grid;
+}
+
+.inner-quotes-container p {
+  font-size: 1.5rem;
+  color: #2e8b57;
+}
+
+.inner-quotes-container h3 {
+  font-size: 2rem;
+  color: #2e8b57;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.quote-btn {
+  padding-top: 25px;
+}
+
