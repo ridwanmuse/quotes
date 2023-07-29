@@ -16,9 +16,20 @@ body {
 }
 
 .inner-quotes-container {
-  display:grid;
-}
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    text-align: center;
+    min-height: 400px;
+    padding: 0 25px;
+    color: gray;
+    border-radius: 10px;
+    border: whitesmoke;
+    background-color: #F9D2DD;
+  }
+  
 .inner-quotes-container p {
   font-size: 1.5rem;
   color: #2e8b57;
